@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("./images/bgk-header.png");
+}
+
+.heading-div {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.heading-div__img {
+  width: 20px;
+  opacity: 0.2;
+}
+
+.heading-nav {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.heading-nav a {
+  text-decoration: none;
+  font-size: 8px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #2a9d8f;
+}
+
+.contact {
+  margin-right: 90px;
+}
+
+.heading-span {
+  margin-left: 5px;
+  color: #fff;
+}
