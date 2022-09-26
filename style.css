@@ -3,9 +3,9 @@
   margin: 0;
   font-family: sans-serif;
   box-sizing: content-box;
-  z-index: auto;
-}
 
+}
+/* navBar section */
 .navBar {
 
   width: 98.7vw;
@@ -34,4 +34,5 @@ li:first-child {
   margin-right: auto;
   margin-left: 2em;
 }
+
 
