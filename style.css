@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: content-box;
+
+}
+/* navBar section */
+.navBar {
+
+  width: 98.7vw;
+  background: linear-gradient(rgba(112, 157, 246, 0.978), rgb(241, 234, 229));
+
+  font-size: large;
+
+
+}
+
+ul {
+
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+  height: 3em;
+}
+
+li a {
+  text-decoration: none;
+  padding: 15px 15px;
+}
+
+li:first-child {
+  margin-right: auto;
+  margin-left: 2em;
+}
+
+
