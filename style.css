@@ -168,3 +168,11 @@ border-style: solid;
   color:#666666;
 }
 
+/* Footer */
+footer {
+  background-image: url('./images/bgk-footer.png');
+}
+
+.footer-bg-img {
+  height: 300px;
+}
