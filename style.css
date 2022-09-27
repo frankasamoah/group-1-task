@@ -7,6 +7,18 @@
 }
 /* navBar section */
 
+h3 {
+  font-size: 22px;
+}
+
+h5  {
+  font-size: 15px;
+}
+
+p {
+  font-size: 14px;
+}
+
 .heading {
   height: 50px;
   display: flex;
@@ -261,13 +273,12 @@ vertical-align: center;
   margin-bottom: 73px;
 }
 
-.expertise-title{
-  font-size: 22px;
+h3 .expertise-title{
   margin-bottom: 6px;
 }
 
 .expertise-body{
-  font-size: 14px;
+
   color: #666;
   margin-bottom: 16px ;
 }
@@ -317,7 +328,6 @@ border-style: solid;
 }
 
 .column-title {
-  font-size: 14px;
   margin-bottom: 16px;
   font-weight: 600;
 }
@@ -327,10 +337,132 @@ border-style: solid;
 }
 
 /* Footer */
+
 footer {
   background-image: url('./images/bgk-footer.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+
 }
 
-.footer-bg-img {
-  height: 300px;
+.footer-container {
+  display: block;
+  padding: 100px 240px;
+  
+}
+
+/* Footer top */
+.footer-top{
+  display: grid;
+  grid-template-columns: 30% 35% 35%;
+}
+
+.footer-column {
+  padding: 16px;
+}
+
+/* Footer top column 1 */
+.footer-logo-row {
+display: flex;
+flex-direction: row;
+margin-bottom: 12px;
+}
+
+
+.footer-logo-name {
+  font-size: 30px;
+  color: #3ABDCA;
+ font-weight: 300;
+  padding-left: 16px;
+
+}
+
+.footer-column-1-body{
+  color: #fff;
+  text-align: left;
+  line-height: 26px;
+}
+
+.footer-column-2, .footer-column-3{
+color: #fff;
+}
+
+ .footer-column-2-title, .footer-column-3-title {
+  font-weight: 600;
+  margin-bottom: 46px;
+}
+
+.footer-address-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.footer-address-icon{
+  width: 14px;
+  height: 19px;
+  margin-top: 5px;
+}
+
+.footer-address {
+  padding-left: 16px;
+  line-height: 26px;
+}
+
+.footer-phone-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-phone-icon {
+  width: 14px;
+  height: 19px;
+  margin-top: 3px;
+}
+
+.footer-phone-number {
+  padding-left: 16px;
+  line-height: 26px;
+}
+
+.footer-newsletter {
+  display: flex;
+  flex-direction: row;
+
+}
+
+input[type="email"] {
+  width: 214px; 
+  height: 48px;
+  background: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: # f0f0f0;
+  text-align: center;
+
+
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 70%;
+}
+
+.newsletter-button {
+ margin-left: 12px;
+ padding: 12px 16px;
+  width: 72px;
+  height: 48px;
+  background-color: rgba(255, 254, 254, 0.5);
+  margin-bottom: 16px;
+}
+
+.newsletter-button:hover{
+  background-color: #fff;
+  cursor: grab;
+}
+
+.footer-social-media-icon {
+  width: 32px;
 }
