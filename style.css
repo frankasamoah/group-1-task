@@ -198,13 +198,13 @@ footer {
 .footer-top{
   display: grid;
   grid-template-columns: 30% 35% 35%;
+  margin-bottom: 48px;
 }
 
 .footer-column {
   padding: 16px;
 }
 
-/* Footer top column 1 */
 .footer-logo-row {
 display: flex;
 flex-direction: row;
@@ -307,4 +307,27 @@ input[type="email"] {
 
 .footer-social-media-icon {
   width: 32px;
+}
+
+.footer-bottom{
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link{
+  color: #fff;
+  padding-right: 16px;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: rgb(170, 168, 168);
+}
+
+
+
+.footer-copyright {
+  color: #fff;
+  
 }
