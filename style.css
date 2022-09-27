@@ -259,8 +259,6 @@ vertical-align: center;
     height: 80px;
     width: 100px;
   }
->>>>>>> 687d8579faa7fd254ac4a6bf395f5e0edab13f9a
-
 /* Expertise*/
 
 .expertise-section {
@@ -273,18 +271,18 @@ vertical-align: center;
   margin-bottom: 73px;
 }
 
-h3 .expertise-title{
+h3 .expertise-title {
   margin-bottom: 6px;
 }
 
-.expertise-body{
+.expertise-body {
 
   color: #666;
-  margin-bottom: 16px ;
+  margin-bottom: 16px;
 }
 
 
-.expertise-line{
+.expertise-line {
   width: 50px;
   display: block;
   margin: auto;
@@ -296,27 +294,27 @@ h3 .expertise-title{
 .container {
   width: 75%;
   margin: 32px auto 0;
- 
-}
-
-.column{
-padding: 32px;
-display: table-cell;
-width: 33.33333%;
-border-style: solid;
-border-color: #ccc;
-border-width: 0px 1px 0px 0px;
-vertical-align: center;
 
 }
 
-.column-last{
+.column {
+  padding: 32px;
+  display: table-cell;
+  width: 33.33333%;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 0px 1px 0px 0px;
+  vertical-align: center;
 
-border-style: solid;
+}
+
+.column-last {
+
+  border-style: solid;
   border-width: 0px;
 }
 
-.first-row{
+.first-row {
   border-style: solid;
   border-color: #ccc;
   border-width: 0px 0px 1px 0px;
@@ -331,11 +329,11 @@ border-style: solid;
   margin-bottom: 16px;
   font-weight: 600;
 }
+
 .column-body {
   font-size: 14px;
-  color:#666666;
+  color: #666666;
 }
-
 /* Footer */
 
 footer {
