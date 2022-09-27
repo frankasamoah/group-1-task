@@ -90,3 +90,81 @@
   text-transform: uppercase;
   color: #2a9d8f;
 }
+
+/* Expertise*/
+
+.expertise-section {
+  display: block;
+  margin: 73px auto;
+  text-align: center;
+}
+
+.expertise-top {
+  margin-bottom: 73px;
+}
+
+.expertise-title{
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.expertise-body{
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 16px ;
+}
+
+
+.expertise-line{
+  width: 50px;
+  display: block;
+  margin: auto;
+  color: #ccc;
+}
+
+
+
+.container {
+  width: 75%;
+  margin: 32px auto 0;
+ 
+}
+
+.column{
+padding: 32px;
+display: table-cell;
+width: 33.33333%;
+border-style: solid;
+border-color: #ccc;
+border-width: 0px 1px 0px 0px;
+vertical-align: center;
+
+}
+
+.column-last{
+
+border-style: solid;
+  border-width: 0px;
+}
+
+.first-row{
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 0px 0px 1px 0px;
+}
+
+.column-img {
+  height: 49px;
+  margin-bottom: 24px;
+}
+
+.column-title {
+  font-size: 14px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+.column-body {
+  font-size: 14px;
+  color:#666666;
+}
+
