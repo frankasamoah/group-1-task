@@ -45,3 +45,48 @@
   margin-left: 5px;
   color: #fff;
 }
+
+.ourstory-section__img-text {
+  display: flex;
+  place-content: center;
+}
+
+.ourstory-img {
+  width: 150px;
+  height: 150px;
+  margin-right: 50px;
+}
+
+.ourstory-section__topborder {
+  border: 1px solid #2a9d8f;
+  width: 90%;
+  height: 40px;
+  background-color: #2a9d8f;
+  margin: auto;
+}
+
+.ourstory-section__bottomborder {
+  border: 1px solid #2a9d8f;
+  width: 90%;
+  height: 40px;
+  background-color: #2a9d8f;
+  margin: auto;
+}
+
+#ourstory-text-p {
+  width: 366px;
+  font-size: 7px;
+  margin-top: 10px;
+}
+
+#ourstory-section-learnmore-p {
+  border: 1px solid #2a9d8f;
+  width: 60px;
+  margin: auto;
+}
+
+#ourstory-section-learnmore-p {
+  text-align: center;
+  text-transform: uppercase;
+  color: #2a9d8f;
+}
