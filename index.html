@@ -16,7 +16,8 @@
       <span class="heading-span">tajam</span>
     </div>
     <nav class="heading-nav">
-      <a href="#">HOME</a>
+      
+      <a style="color: #2a9d8f" href="#" >HOME</a>
       <a href="#">ABOUT</a>
       <a href="#">EXPERTISE</a>
       <a href="#">TEAMS</a>
@@ -25,12 +26,25 @@
       <a href="#" id="contact">CONTACT</a>
     </nav>
   </header>
-  <main>
+   <main>
+    
+
     <section class="hero-section">
-      <h2>We Are Awesome Creative Agency</h2>
-      <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+      <div class="intro">
+      <h1>We Are Awesome Creative Agency</h1>
+    </div>
+    <div class="line">______</div>
+    <div class="paragraph">
+      <p class="p-section">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
         lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet
         nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+      </div>
+      
+      <div class="button">
+        <button type="button" class="btn btn-secondary" title="">
+          learn more
+        </button>
+      </div>
 
     </section>
     <!-- Our Story Section -->
@@ -64,35 +78,119 @@
           <p id="ourstory-section-learnmore-p">Learn More</p>
         </div>
 
+
         <div class="ourstory-section__bottomborder"></div>
       </div>
     </section>
     <!-- Ed of Our Story Section -->
     <section class="watch-section">
+
+        
+
       <img src="./images/png/play.png" alt="play" class="play">
+      </section>
 
-    </section>
-    <section class="expertise-section">
-      <div class=""></div>
-      <h3 class="">EXPERTISE</h3>
-      <p class="">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-      <div class=""></div>
-      <table class="expertise-section-table">
 
-      </table>
-      <div class=""></div>
-    </section>
-    <section class="team-section">
-      <div class=""></div>
-      <h3>MEET OUR AMAZING TEAM</h3>
-      <P>Lorem ipsum dolor sit amet proin gravida nibh vel velit</P>
-      <div class=""></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-    </section>
-    <section class="contact-client-section">
+   
+
+     <!--Expertise Section-->
+      <!--Expertise top-->
+      <section class="expertise-section">
+        <div class="expertise-top">
+          <h3 class="expertise-title">EXPERTISE</h3>
+          <p class="expertise-body">
+            Lorem ipsum dolor sit amet proin gravida nibh vel velit
+          </p>
+          <hr class="expertise-line" />
+        </div>
+
+
+        <!--Expertise Body-->
+        <div class="container">
+          <section class="first-row">
+            <div class="column">
+              <img
+                class="column-img"
+                src="images/png/screen.png"
+                alt="screen"
+              />
+              <p class="column-title">WEB DESIGN & DEVELOPMENT</p>
+              <p class="column-body">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </div>
+            <div class="column">
+              <img class="column-img" src="images/png/pen.png" alt="pen" />
+              <p class="column-title">BRANDING IDENTITY</p>
+              <p class="column-body">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </div>
+            <div class="column column-last">
+              <img
+                class="column-img"
+                src="images/png/mobile.png"
+                alt="mobile"
+              />
+              <p class="column-title">MOBILE APP</p>
+              <p class="column-body">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </div>
+          </section>
+          <section class="second-row">
+            <div class="column">
+              <img class="column-img" src="images/png/graph.png" alt="graphy" />
+              <p class="column-title">SEARCH ENGINE OPTIMIZATION</p>
+              <p class="column-body">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </div>
+
+            <div class="column">
+              <img
+                class="column-img"
+                src="images/png/gameboy.png"
+                alt="gameboy"
+              />
+              <p class="column-title">GAME DEVELOPMENT</p>
+              <p class="column-body">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </div>
+            <div class="column column-last">
+              <img class="column-img" src="images/png/heart.png" alt="heart" />
+              <p class="column-title">MADE WITH LOVE</p>
+              <p class="column-body">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
+      <!--END Expertise Section-->
+
+
+
+      <!--Team Section-->
+
+      <section class="team-section">
+        <div class=""></div>
+        <h3>MEET OUR AMAZING TEAM</h3>
+        <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+        <div class=""></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+       <section class="contact-client-section">
       <h3>GIVE US A GOOD NEWS</h3>
       <div class="contact">
         <form action="#" method="post">
@@ -117,7 +215,6 @@
               <button type="submit">SUBMIT</button>
             </li>
           </ul>
-        </form>
       </div>
       <div class="logo">
         <h3>OUR HAPPY CLIENT</h3>
@@ -134,7 +231,112 @@
       </div>
     </section>
   </main>
-  <footer class="footer-section"></footer>
 </body>
+   <!--Footer Section-->
+    <footer class="footer-section">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-column footer-column-1">
+            <span class="footer-logo-row">
+              <img
+                src="images/png/logo.png"
+                alt="company logo outline"
+                class="footer-column-logo"
+              />
+              <p class="footer-logo-name">tajam</p>
+            </span>
+            <span class="footer-column-1-body">
+              <p>
+                lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+                sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare
+                odio non mauris vitae erat in elit
+              </p>
+            </span>
+          </div>
+          <div class="footer-column footer-column-2">
+            <span>
+              <h5 class="footer-column-2-title">OUR STUDIO</h5>
+            </span>
+            <span class="footer-address-row">
+              <img
+                class="footer-address-icon"
+                src="images/png/big104.png"
+                alt="location icon"
+              />
+              <p class="footer-address">
+                Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres -
+                Jakarta Barat 11480 - Indonesia
+              </p>
+            </span>
+            <span class="footer-phone-row">
+              <img
+                class="footer-phone-icon"
+                src="images/png/phone351.png"
+                alt="phone icon"
+              />
+              <p class="footer-phone-number">(+62) 21-2224 3333</p>
+            </span>
+          </div>
+          <div class="footer-column footer-column-3">
+            <span>
+              <h5 class="footer-column-3-title">STAY IN TOUCH</h5>
+            </span>
+            <span class="footer-newsletter">
+              <input
+                type="email"
+                id="newsletter-email"
+                name="newsletter-email"
+                placeholder="Subscribe our newsletter"
+              />
+              <button class="newsletter-button">
+                <img src="images/png/paper122.png" alt="send icon" />
+              </button>
+            </span>
+            <span class="footer-socia-media-section">
+              <img
+                class="footer-social-media-icon"
+                src="images/png/facebook.png"
+                alt="facebook icon"
+              />
+              <img
+                class="footer-social-media-icon"
+                src="images/png/twitter.png"
+                alt="twitter icon"
+              />
+              <img
+                class="footer-social-media-icon"
+                src="images/png/dribbble.png"
+                alt="dribble icon"
+              />
+              <img
+                class="footer-social-media-icon"
+                src="images/png/instagram.png"
+                alt="instagram icon"
+              />
+              <img
+                class="footer-social-media-icon"
+                src="images/png/gplus.png"
+                alt="gplus icon"
+              />
+              <img
+                class="footer-social-media-icon"
+                src="images/png/youtube.png"
+                alt="youtube icon"
+              />
+            </span>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-column-1">
+            <a class="footer-link" href="#" target="_blank">HELP</a>
+            <a class="footer-link" href="#" target="_blank">TERMS & CONDITION</a>
+            <a class="footer-link" href="#" target="_blank">PRIVACY</a>
 
+          </div>
+          <div class="footer-bottom-column-2">
+            <p class="footer-copyright">Copyright 2015 ©- Tajam Creative</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 </html>
