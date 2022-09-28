@@ -37,9 +37,11 @@
   color: #45e2da;
 }
 
-.contact {
+#contact {
   margin-right: 90px;
 }
+
+
 
 .heading-span {
   margin-left: 5px;
@@ -60,7 +62,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(41, 52, 98, 0.7);
+  background-color: rgba(41, 52, 98, 0.9);
 }
 
 .ourstory-img {
