@@ -223,42 +223,57 @@ vertical-align: center;
   align-items: center;
 }
 
-.contact-client-section {
-
-  display: flex;
+.contact-client-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
-
-.contact-client-section ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 
 .contact {
-  width: 50%;
+  margin-left: 50px;
+  margin-right: 50px;
 }
-  
-  form li {
+
+form li {
   margin-top: 1em;
-  }
-  
-  input,
-  textarea {
+}
+
+form ul {
+  list-style: none;
+}
+
+input, textarea {
   width: 350px;
   box-sizing: border-box;
   border: 1px solid #999;
-  }
+}
 
-  .logo {
-    width: 50%;
-    float: right;
-  }
+  
+.button-contact{
+  color: #45e2da;
+  border-color: #45e2da;
+  padding: 5px;
 
-  .logo img {
-    height: 80px;
-    width: 100px;
-  }
+}
+.logo-wrapper {
+  display: grid;
+  grid-template-columns: 0fr 0fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px 20px;
+}
+
+.logo {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.logo img {
+  height: 30px;
+  width: 100px;
+  margin: 12px;
+  object-fit: contain;
+}
 /* Expertise*/
 
 .expertise-section {
@@ -430,7 +445,7 @@ color: #fff;
 
 }
 
-input[type="email"] {
+.footer-newsletter-email {
   width: 214px; 
   height: 48px;
   background: transparent;
@@ -441,7 +456,7 @@ input[type="email"] {
   color: #fff;
 }
 
-::placeholder {
+.footer-newsletter-email ::placeholder {
   color: #fff;
   opacity: 70%;
 }
