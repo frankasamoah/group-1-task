@@ -58,7 +58,7 @@
   border-radius: 5px;
 
 }
- 
+
 /* hero section */
 
 .container-heading {
@@ -148,14 +148,14 @@
   margin-right: 50px;
 }
 
-.column{
-padding: 32px;
-display: table-cell;
-width: 33.33333%;
-border-style: solid;
-border-color: #ccc;
-border-width: 0px 1px 0px 0px;
-vertical-align: center;
+.column {
+  padding: 32px;
+  display: table-cell;
+  width: 33.33333%;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 0px 1px 0px 0px;
+  vertical-align: center;
 
 }
 
@@ -164,9 +164,9 @@ vertical-align: center;
 }
 
 .ourstory-section__img-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #ourstory-text-p {
@@ -217,19 +217,21 @@ form ul {
   list-style: none;
 }
 
-input, textarea {
+input,
+textarea {
   width: 350px;
   box-sizing: border-box;
   border: 1px solid #999;
 }
 
-  
-.button-contact{
+
+.button-contact {
   color: #45e2da;
   border-color: #45e2da;
   padding: 5px;
 
 }
+
 .logo-wrapper {
   display: grid;
   grid-template-columns: 0fr 0fr;
@@ -248,6 +250,7 @@ input, textarea {
   margin: 12px;
   object-fit: contain;
 }
+
 /* Expertise*/
 
 .expertise-section {
@@ -316,6 +319,100 @@ h3 .expertise-title {
   font-size: 14px;
   color: #666666;
 }
+
+/* amazing team */
+
+.container-team {
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-image: url(./images/bgk-header.png);
+  color: white;
+}
+
+.team-member {
+  display: flex;
+  justify-content: center;
+  padding-top: 73px;
+  text-transform: uppercase;
+
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+
+}
+
+.parag {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 73px;
+
+}
+
+.card-parent {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  gap: 8px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 16px;
+}
+
+.single-card {
+
+  border: 0.5px solid #d7d4d4;
+  padding: 0;
+}
+
+.member-name {
+  margin-bottom: 6px;
+
+  text-transform: uppercase;
+}
+
+.work-position {
+  color: #fafafa;
+}
+
+
+.join-us {
+  padding-top: 10px;
+}
+
+.button-2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.teamButton {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 73px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 2px solid #2a9d8f;
+  background: transparent;
+  border-radius: 5px;
+  color: #2a9d8f;
+  text-transform: uppercase;
+}
+
+/* end of amazing team */
+
+
 /* Footer */
 
 footer {
@@ -329,11 +426,11 @@ footer {
 .footer-container {
   display: block;
   padding: 100px 240px;
-  
+
 }
 
 /* Footer top */
-.footer-top{
+.footer-top {
   display: grid;
   grid-template-columns: 30% 35% 35%;
   margin-bottom: 48px;
@@ -344,31 +441,33 @@ footer {
 }
 
 .footer-logo-row {
-display: flex;
-flex-direction: row;
-margin-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12px;
 }
 
 
 .footer-logo-name {
   font-size: 30px;
   color: #3ABDCA;
- font-weight: 300;
+  font-weight: 300;
   padding-left: 16px;
 
 }
 
-.footer-column-1-body{
+.footer-column-1-body {
   color: #fff;
   text-align: left;
   line-height: 26px;
 }
 
-.footer-column-2, .footer-column-3{
-color: #fff;
+.footer-column-2,
+.footer-column-3 {
+  color: #fff;
 }
 
- .footer-column-2-title, .footer-column-3-title {
+.footer-column-2-title,
+.footer-column-3-title {
   font-weight: 600;
   margin-bottom: 46px;
 }
@@ -379,7 +478,7 @@ color: #fff;
   margin-bottom: 16px;
 }
 
-.footer-address-icon{
+.footer-address-icon {
   width: 14px;
   height: 19px;
   margin-top: 5px;
@@ -413,7 +512,7 @@ color: #fff;
 }
 
 .footer-newsletter-email {
-  width: 214px; 
+  width: 214px;
   height: 48px;
   background: transparent;
   border-style: solid;
@@ -429,15 +528,15 @@ color: #fff;
 }
 
 .newsletter-button {
- margin-left: 12px;
- padding: 12px 16px;
+  margin-left: 12px;
+  padding: 12px 16px;
   width: 72px;
   height: 48px;
   background-color: rgba(255, 254, 254, 0.5);
   margin-bottom: 16px;
 }
 
-.newsletter-button:hover{
+.newsletter-button:hover {
   background-color: #fff;
   cursor: grab;
 }
@@ -446,19 +545,19 @@ color: #fff;
   width: 32px;
 }
 
-.footer-bottom{
+.footer-bottom {
   padding: 16px;
   display: flex;
   justify-content: space-between;
 }
 
-.footer-link{
+.footer-link {
   color: #fff;
   padding-right: 16px;
   text-decoration: none;
 }
 
-.footer-link:hover{
+.footer-link:hover {
   color: rgb(170, 168, 168);
 }
 
@@ -466,5 +565,5 @@ color: #fff;
 
 .footer-copyright {
   color: #fff;
-  
+
 }
